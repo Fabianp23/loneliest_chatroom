@@ -10,7 +10,7 @@ $(document).ready(function(){
         newMessage += "<p class='new-message-body'>";
         newMessage += inputText;
         newMessage +="</p>";
-        newMessage += "span class='timestamp'></span";
+        newMessage += "<span class='timestamp'></span";
         newMessage += "</li>";
 
     $('#conversation').append(newMessage);
