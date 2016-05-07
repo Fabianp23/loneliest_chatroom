@@ -16,5 +16,10 @@ $(document).ready(function(){
     $('#conversation').append(newMessage);
       console.log("Message Sent");
 
+    $('.delete').on('click', function(){
+      console.log("x(button) is click-able");
+      $(this).parent().remove();
+    });
+
   });
 });
