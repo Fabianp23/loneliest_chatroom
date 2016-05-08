@@ -1,6 +1,7 @@
 $(document).ready(function(){
 
   function sendMethod(){
+
     var inputText = $("#new-message-body").val();
 
     var getDate = new Date;
@@ -13,9 +14,14 @@ $(document).ready(function(){
       };
     }
 
+    var author = ["Me", "Myself", "I"];
+    var randomNumber = Math.floor(Math.random() * 3);
+
     var newMessage = "<li class='message'>";
         newMessage += "<a class='delete' href='#'>Delete</a>";
-        newMessage += "<h3 class='author'>Me</h3>";
+        newMessage += "<h3 class='author'>"
+        newMessage += author[randomNumber];
+        newMessage += "</h3>";
         newMessage += "<p class='new-message-body'>";
         newMessage += inputText;
         newMessage += "</p>";
