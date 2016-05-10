@@ -6,7 +6,7 @@ During this exercise, you'll write JavaScript to make our chatroom-for-one work.
 
 Upon completion, you should be able to manipulate the DOM using common JavaScript and jQuery functions and use AJAX to retrieve data from a public API.
 
-## Getting Started
+# Getting Started
 
 Fork this repository, then clone it to your desktop so you can work on your local environment.
 
